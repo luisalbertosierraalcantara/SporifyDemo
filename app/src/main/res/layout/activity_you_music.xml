@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1919"
+    tools:context=".you_music">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#1a1919"
+        android:text="SONGS" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:background="#1a1919"
+        android:text="ALBUMS" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:background="#1a1919"
+        android:text="ARTISTS" />
+
+
+     <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawableRight="@drawable/ic_sort_black_24dp"
+        android:layout_below="@id/button1"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:inputType="text"
+        android:hint="Filter"
+        android:textColorHint="#ffffff"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText"
+        android:layout_centerInParent="true"
+        android:background="@drawable/playbtn"
+        android:scaleType="centerCrop" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/imageButton"
+        android:checked="true"
+        android:textColor="#ffffff"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/switch1"
+        android:layout_below="@id/imageButton"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Available Offline" />
+
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView11"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:text="Move Along" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_below="@id/textView12"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_toRightOf="@id/imageView12"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#808080"
+        android:text="The All - American Rejects" />
+
+    <Button
+        android:id="@+id/mnu1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/textView11"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_panorama_fish_eye_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mnu1"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Ella Quiere Beber" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_below="@id/textView14"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView14"
+        android:layout_toRightOf="@id/imageView13"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#808080"
+        android:text="Anuel AA" />
+
+    <Button
+        android:id="@+id/mnu2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/textView13"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_panorama_fish_eye_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mnu2"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Está Rico" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_below="@id/textView16"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView16"
+        android:layout_toRightOf="@id/imageView14"
+        android:textSize="12sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#808080"
+        android:text="Will Smith Ft. Marc Anthony Y Bad Bunny " />
+
+    <Button
+        android:id="@+id/mnu3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/textView15"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_panorama_fish_eye_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mnu3"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Toda" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_below="@id/textView18"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView18"
+        android:layout_toRightOf="@id/imageView15"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#808080"
+        android:text="Alex Rose Ft. Raw Alejandro" />
+
+    <Button
+        android:id="@+id/mnu4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_panorama_fish_eye_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mnu4"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Cancioncitas de Amor" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_below="@id/textView20"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView20"
+        android:layout_toRightOf="@id/imageView16"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#808080"
+        android:text="Romeo Santos" />
+
+    <Button
+        android:id="@+id/mnu5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/textView19"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_panorama_fish_eye_black_24dp" />
+
+
+
+
+
+
+</RelativeLayout>
