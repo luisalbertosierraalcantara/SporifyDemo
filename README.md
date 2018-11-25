@@ -1,7 +1,7 @@
 # SporifyDemo
 + Applications for Watch The Spotify Design.
 
-# Screens Shopt:
+# Screens Shop:
 
 ## Menu
 <img src="https://raw.githubusercontent.com/luisalbertosierraalcantara/SporifyDemo/master/ScreenShopt/Screenshot%20from%202018-11-25%2000-56-15.png" align="center" height="500px" width="282px"/>
